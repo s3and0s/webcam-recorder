@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/webcam-recorder/static/css/main.39db5d54.chunk.css",
-    "main.js": "/webcam-recorder/static/js/main.fc868851.chunk.js",
-    "main.js.map": "/webcam-recorder/static/js/main.fc868851.chunk.js.map",
+    "main.js": "/webcam-recorder/static/js/main.7536e6b2.chunk.js",
+    "main.js.map": "/webcam-recorder/static/js/main.7536e6b2.chunk.js.map",
     "runtime~main.js": "/webcam-recorder/static/js/runtime~main.34a2a1d2.js",
     "runtime~main.js.map": "/webcam-recorder/static/js/runtime~main.34a2a1d2.js.map",
     "static/css/2.57125576.chunk.css": "/webcam-recorder/static/css/2.57125576.chunk.css",
     "static/js/2.e2dcaf49.chunk.js": "/webcam-recorder/static/js/2.e2dcaf49.chunk.js",
     "static/js/2.e2dcaf49.chunk.js.map": "/webcam-recorder/static/js/2.e2dcaf49.chunk.js.map",
     "index.html": "/webcam-recorder/index.html",
-    "precache-manifest.d498a8195762049d150e15c0cb71ede9.js": "/webcam-recorder/precache-manifest.d498a8195762049d150e15c0cb71ede9.js",
+    "precache-manifest.981b7e210161ddf93c73686e7c733421.js": "/webcam-recorder/precache-manifest.981b7e210161ddf93c73686e7c733421.js",
     "service-worker.js": "/webcam-recorder/service-worker.js",
     "static/css/2.57125576.chunk.css.map": "/webcam-recorder/static/css/2.57125576.chunk.css.map",
     "static/css/main.39db5d54.chunk.css.map": "/webcam-recorder/static/css/main.39db5d54.chunk.css.map",
