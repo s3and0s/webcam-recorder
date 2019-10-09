@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "84d0e80ab849d5074c42e9d8bdb7a28a",
+    "revision": "1a90c79931e693aa47751d9b58561bdc",
     "url": "/webcam-recorder/index.html"
   },
   {
-    "revision": "795fbfc47b7e5e062d38",
+    "revision": "66be964b92c0f5f62081",
     "url": "/webcam-recorder/static/css/2.57125576.chunk.css"
   },
   {
-    "revision": "327cdb5bebf87aa3815d",
-    "url": "/webcam-recorder/static/css/main.90038d79.chunk.css"
+    "revision": "c89bf17e1b687f090054",
+    "url": "/webcam-recorder/static/css/main.c8f6d16b.chunk.css"
   },
   {
-    "revision": "795fbfc47b7e5e062d38",
-    "url": "/webcam-recorder/static/js/2.d61fe2ab.chunk.js"
+    "revision": "66be964b92c0f5f62081",
+    "url": "/webcam-recorder/static/js/2.f86f0e7e.chunk.js"
   },
   {
-    "revision": "327cdb5bebf87aa3815d",
-    "url": "/webcam-recorder/static/js/main.086127ee.chunk.js"
+    "revision": "c89bf17e1b687f090054",
+    "url": "/webcam-recorder/static/js/main.03621456.chunk.js"
   },
   {
     "revision": "f63a25f1104aadb09a1c",
