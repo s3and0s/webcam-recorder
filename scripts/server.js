@@ -5,21 +5,25 @@ app.use((req, res, next) => {
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
 })
-const http = require('http').createServer(app);
-const io = require('socket.io')(http, {
-  origins: '*:*'
-});
 const fs = require('fs');
-const exec = require('child_process').exec;
 const path = require('path')
-const colors = require('colors/safe');
-const ip = require('../src/utils/ip');
-
+const exec = require('child_process').exec;
 let parentDir = path.resolve(process.cwd(), '..');
 exec('getParentDirectory', {
   cwd: parentDir
 });
 parentDir += '/webcam-recorder/server/';
+
+const https = require('https').createServer({
+  key: fs.readFileSync(parentDir + 'key.pem'),
+  cert: fs.readFileSync(parentDir + 'cert.pem')
+}, app);
+const io = require('socket.io')(https, {
+  origins: '*:*'
+});
+const colors = require('colors/safe');
+const ip = require('../src/utils/ip');
+
 const RECORDING_STATUS_PATH = parentDir + 'util/recording_status.json'
 const PROGRESS_PATH = parentDir + 'util/progress.json'
 const CONNECTION_STATUS_PATH = parentDir + 'util/connection_status.json'
@@ -136,7 +140,7 @@ app.get('/', function (req, res) {
   res.send('<h1>Server Started</h1>');
 });
 
-http.listen(5000, function () {
+https.listen(443, function () {
   clearConsole(13);
   // ip.nodeGetIP();
   console.log(colors.green(colors.bold('👂🏻 listening : ') + 'localhost:5000 or ' + my_ip + ':5000'));
